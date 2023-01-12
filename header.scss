@@ -4,6 +4,8 @@
   align-items: center;
   padding: 10px 0;
 
+  margin-bottom: 5rem;
+
   .web__name {
     font-weight: 600;
     font-size: 2rem;
@@ -26,4 +28,35 @@
   font-weight: 400;
   color: #fff;
   background: #192252;
+}
+.main__hero {
+
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+}
+
+
+.main__hero-titel-box{
+    .main__hero-titel{
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+    .main__hero-titel-para{
+        font-weight: 400;
+        font-size: 1.1rem;
+        color: #848FAC;
+        margin: 2rem 0;
+    }
+
+}
+.main-hero-pics{
+    text-align: end;
+
+    .hero__home-mid{
+        position: relative;
+        top: 5rem;
+        margin: 0 1.5rem;
+        // margin-top: 90px;
+    }
 }
