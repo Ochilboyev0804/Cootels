@@ -1,0 +1,29 @@
+.website__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
+  .web__name {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #192252;
+  }
+}
+
+.web__header-nav {
+  a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #192252;
+  }
+}
+
+.web__btn {
+  font-weight: 400;
+  color: #fff;
+  background: #192252;
+}
